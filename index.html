@@ -1,11 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portafolio Personal</title>
+    <!-- Enlace al archivo CSS externo dentro de la carpeta css/ -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>MI PRIMERA PAGINA</h1>
+
+    <div class="container">
+        <!-- Encabezado / Barra superior -->
+        <header class="header-bar">
+            <h1>Portafolio personal</h1>
+        </header>
+
+        <!-- Sección de Perfil -->
+        <section class="profile-section">
+            <div class="avatar-container">
+                <!-- Imagen de perfil desde la carpeta img/ -->
+                <img src="img/perfil.jpg" alt="Foto de Perfil" class="profile-img">
+            </div>
+            <div class="profile-info">
+                <h2>Tu Nombre Completo</h2>
+                <p class="description">
+                    Descripción breve: quién eres, qué estudias y qué tipo de proyectos te interesan.
+                </p>
+            </div>
+        </section>
+
+        <!-- Sección de Tarjetas (Historial y Proyectos) -->
+        <section class="cards-grid">
+            <!-- Tarjeta 1: Historial académico -->
+            <div class="card">
+                <h3>Historial académico</h3>
+                <p>Universidad, carrera y cursos relevantes.</p>
+            </div>
+
+            <!-- Tarjeta 2: Historial laboral -->
+            <div class="card">
+                <h3>Historial laboral</h3>
+                <p>Trabajo, prácticas o experiencia en proyectos.</p>
+            </div>
+
+            <!-- Tarjeta 3: Proyectos -->
+            <div class="card">
+                <h3>Proyectos</h3>
+                <p>Lista con enlaces a repositorios.</p>
+            </div>
+        </section>
+
+        <!-- Sección de Tecnologías -->
+        <section class="tech-section">
+            <p><strong>Tecnologías:</strong> HTML · CSS · JavaScript · Git · GitHub</p>
+        </section>
+
+        <!-- Sección de Enlaces y GitHub -->
+        <section class="github-section">
+            <a href="https://github.com/tu-usuario" target="_blank" class="github-btn">Enlace a GitHub</a>
+            <a href="https://github.com/tu-usuario" target="_blank" class="github-link">github.com/tu-usuario</a>
+        </section>
+    </div>
+
 </body>
 </html>
